@@ -6,8 +6,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "algoliasearch": "^4.3.0",
+    "classnames": "^2.2.6",
+    "qs": "^6.9.4",
     "react": "^16.13.1",
+    "react-compound-slider": "^2.5.0",
     "react-dom": "^16.13.1",
+    "react-instantsearch-dom": "^6.6.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
