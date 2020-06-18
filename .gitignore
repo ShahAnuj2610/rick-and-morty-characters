@@ -24,3 +24,6 @@ yarn-error.log*
 
 # webstorm
 .idea
+
+# lightouse reports
+*.report.html

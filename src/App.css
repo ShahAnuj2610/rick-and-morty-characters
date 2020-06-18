@@ -28,8 +28,8 @@ h2 {
 .header {
   align-items: center;
   background: linear-gradient(to bottom, #fbc300, #c98a00);
-  background-image: url('./assets/cover.png');
-  background-image: url('./assets/cover.png'),
+  background-image: url('./assets/cover.webp');
+  background-image: url('./assets/cover.webp'),
     linear-gradient(to bottom, #fbc300, #c98a00);
   background-position: center;
   background-size: cover;

@@ -8,18 +8,25 @@
   />
   <meta name="theme-color" content="#e2a400" />
 
-  <link rel="manifest" href="../src/assets/manifest.webmanifest" />
-  <link rel="shortcut icon" href="../src/assets/favicon.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
+
+  <link rel="preconnect" href="https://rickandmortyapi.com" />
+  <link rel="preconnect" href="https://urv2upys2h-3.algolianet.com" />
 
   <link
-    rel="stylesheet"
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
     href="https://fonts.googleapis.com/css?family=Hind:400,600|Open+Sans:300,400,700&display=swap"
   />
   <link
-    rel="stylesheet"
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
     href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css"
   />
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CArray.prototype.findIndex%2CObject.assign%2CObject.entries"></script>
+  <script async src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CArray.prototype.findIndex%2CObject.assign%2CObject.entries"></script>
   <title>Rick and Morty Characters</title>
 </head>
 
