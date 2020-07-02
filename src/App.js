@@ -25,8 +25,8 @@ import './App.mobile.css';
 import './widgets/Pagination.css';
 
 const searchClient = algoliasearch(
-  'URV2UPYS2H',
-  '0ac7877bcc626b1292229c4b9c99dfe9'
+  process.env.REACT_APP_ALGOLIA_APP_ID,
+  process.env.REACT_APP_ALGOLIA_API_KEY
 );
 
 const Hit = ({ hit }) => (
