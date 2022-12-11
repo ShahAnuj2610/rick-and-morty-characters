@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "algoliasearch": "^4.3.0",
     "classnames": "^2.2.6",
-    "qs": "^6.9.4",
+    "qs": "^6.9.7",
     "react": "^16.13.1",
     "react-compound-slider": "^2.5.0",
     "react-dom": "^16.13.1",
